@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset='utf-8'>
+		<title>TNJS</title>
+		<link rel='stylesheet' href='styles.css'>
+		<script src='tn.js'></script>
+	</head>
+	<body>
+		<div id='wrapper'>
+			<div id='container'>
+				<h1>TN.js</h1>
+				
+				<ul class='nav'>
+					<li><a href='/'>Home</a></li>
+					<li><a href='about'>About</a></li>
+					<li><a href='#'>Current Time: <%= current_time %></a></li>
+				</ul>
+				
+				<%= yield %>
+			</div>
+		</div>
+	</body>
+</html>
